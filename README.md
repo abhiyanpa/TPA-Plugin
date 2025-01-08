@@ -3,17 +3,29 @@ A lightweight and powerful teleport request plugin
 Features
 
 ✅ Multi-version support (1.8 - 1.20)
+
 ✅ [NEW] Fully configurable messages and timers
+
 ✅ [NEW] Custom sound effects configuration
+
 ✅ Customizable cooldown system (Default: 30s)
+
 ✅ Request timeout (Default: 60s)
+
 ✅ Toggle teleport requests with /tpatoggle
+
 ✅ Interactive sound effects
+
 ✅ Permission system
+
 ✅ Staff cooldown bypass
+
 ✅ Memory optimized
+
 ✅ No dependencies required
+
 ✅ Lightweight (< 50KB)
+
 Commands
 [CODE]
 /tpa <player> - Request to teleport to a player
