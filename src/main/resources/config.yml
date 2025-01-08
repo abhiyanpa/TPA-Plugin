@@ -1,0 +1,76 @@
+# TPA - Universal Configuration
+# By errCruze
+
+Settings:
+  # Time in seconds before a request expires
+  request-timeout: 60
+  # Time in seconds between requests (cooldown)
+  request-cooldown: 30
+  # Whether to play sounds
+  enable-sounds: true
+
+Messages:
+  Prefix: "&8[&bTPA&8]"
+
+  # TPA Command Messages
+  tpa:
+    sent: "%prefix% &aTeleport request sent to %target%!"
+    received: "%prefix% &e%player% &awants to teleport to you!"
+    instructions: "%prefix% &aUse &e/tpaccept &aor &e/tpadeny"
+    no-permission: "%prefix% &cYou don't have permission to use this command!"
+    self-teleport: "%prefix% &cYou cannot teleport to yourself!"
+    player-not-found: "%prefix% &cPlayer not found!"
+    cooldown: "%prefix% &cPlease wait %time% seconds before sending another request."
+    already-pending: "%prefix% &cYou already have a pending teleport request!"
+    target-disabled: "%prefix% &cThis player is not accepting teleport requests!"
+
+  # TPAHere Command Messages
+  tpahere:
+    sent: "%prefix% &aTeleport request sent to %target%!"
+    received: "%prefix% &e%player% &awants you to teleport to them!"
+    instructions: "%prefix% &aUse &e/tpaccept &aor &e/tpadeny"
+
+  # Accept/Deny Messages
+  accept:
+    no-request: "%prefix% &cYou don't have any pending teleport requests!"
+    success-sender: "%prefix% &aTeleporting to %target%..."
+    success-target: "%prefix% &a%player% &aaccepted your teleport request!"
+    player-offline: "%prefix% &cThe player is offline!"
+
+  deny:
+    no-request: "%prefix% &cYou don't have any pending teleport requests!"
+    success-sender: "%prefix% &cYou denied the teleport request!"
+    success-target: "%prefix% &c%player% denied your teleport request!"
+
+  # Toggle Messages
+  toggle:
+    enabled: "%prefix% &aTeleport requests enabled!"
+    disabled: "%prefix% &cTeleport requests disabled!"
+
+  # General Messages
+  timeout:
+    sender: "%prefix% &cTeleport request timed out!"
+    target: "%prefix% &cTeleport request from %player% timed out!"
+
+Sounds:
+  # Valid sound types: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+  request:
+    enabled: true
+    modern: "ENTITY_EXPERIENCE_ORB_PICKUP"
+    legacy: "ORB_PICKUP"
+    volume: 1.0
+    pitch: 1.0
+
+  teleport:
+    enabled: true
+    modern: "ENTITY_ENDERMAN_TELEPORT"
+    legacy: "ENDERMAN_TELEPORT"
+    volume: 1.0
+    pitch: 1.0
+
+  deny:
+    enabled: true
+    modern: "BLOCK_ANVIL_BREAK"
+    legacy: "ANVIL_BREAK"
+    volume: 1.0
+    pitch: 1.0

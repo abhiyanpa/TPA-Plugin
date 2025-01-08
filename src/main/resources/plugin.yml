@@ -1,0 +1,36 @@
+name: TPA
+version: '1.0'
+main: me.errcruze.tPA.TPA
+api-version: '1.13'
+authors: [errCruze]
+description: Advanced TPA system with multi-version support (1.8 - 1.20)
+
+commands:
+  tpa:
+    description: Request to teleport to a player
+    usage: /tpa <player>
+    aliases: []
+  tpahere:
+    description: Request a player to teleport to you
+    usage: /tpahere <player>
+    aliases: []
+  tpaccept:
+    description: Accept a teleport request
+    usage: /tpaccept
+    aliases: []
+  tpadeny:
+    description: Deny a teleport request
+    usage: /tpadeny
+    aliases: []
+  tpatoggle:
+    description: Toggle teleport requests
+    usage: /tpatoggle
+    aliases: []
+
+permissions:
+  tpasystem.use:
+    description: Allows use of TPA commands
+    default: true
+  tpasystem.bypass:
+    description: Bypasses cooldown
+    default: op
