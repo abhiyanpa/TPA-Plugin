@@ -36,7 +36,6 @@ tpasystem.bypass - Bypass cooldown timer (Default: op)
 • All sounds can be configured or disabled
 
 **⚙️ Configuration**
-
 Settings:
   request-timeout: 60
   request-cooldown: 30
