@@ -30,10 +30,10 @@ tpasystem.bypass - Bypass cooldown timer (Default: op)
 
 **Sound Effects**
 
-• Experience orb sound when sending requests
-• Enderman teleport sound on successful teleport
-• Anvil break sound when denying requests
-• All sounds can be configured or disabled
+• Experience orb sound when sending requests 
+• Enderman teleport sound on successful teleport 
+• Anvil break sound when denying requests 
+• All sounds can be configured or disabled 
 
 **⚙️ Configuration**
 Settings:
