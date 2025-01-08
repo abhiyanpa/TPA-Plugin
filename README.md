@@ -1,8 +1,8 @@
 # TPA - Universal
 A lightweight and powerful teleport request plugin
 Features
-✅ Multi-version support (1.8 - 1.20)
 
+✅ Multi-version support (1.8 - 1.20)
 ✅ [NEW] Fully configurable messages and timers
 ✅ [NEW] Custom sound effects configuration
 ✅ Customizable cooldown system (Default: 30s)
