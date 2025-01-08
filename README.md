@@ -36,6 +36,7 @@ tpasystem.bypass - Bypass cooldown timer (Default: op)
 • All sounds can be configured or disabled
 
 **⚙️ Configuration**
+
 Settings:
   request-timeout: 60
   request-cooldown: 30
@@ -60,9 +61,9 @@ Sounds:
 **Installation**
 1. Download the plugin
 2. Place in your server's plugins folder
-3. Restart server
-4. Configure messages and settings (optional)
-5. That's it!
+4. Restart server
+5. Configure messages and settings (optional)
+6. That's it!
 
 **Future Updates**
 • MySQL support for cross-server toggle states
