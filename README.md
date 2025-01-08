@@ -26,65 +26,77 @@ Features
 
 ✅ Lightweight (< 50KB)
 
-Commands:
+**Commands**
 
 /tpa <player> - Request to teleport to a player
+
 /tpahere <player> - Request a player to teleport to you
+
 /tpaccept - Accept incoming teleport request
+
 /tpadeny - Deny teleport request
+
 /tpatoggle - Toggle teleport requests on/off
 
-⚡ Permissions
-[CODE]
-tpasystem.use - Access to all TPA commands (Default: true)
-tpasystem.bypass - Bypass cooldown timer (Default: op)
-[/CODE]
+**⚡ Permissions**
 
-Sound Effects
+tpasystem.use - Access to all TPA commands (Default: true)
+
+tpasystem.bypass - Bypass cooldown timer (Default: op)
+
+**Sound Effects**
+
 • Experience orb sound when sending requests
+
 • Enderman teleport sound on successful teleport
+
 • Anvil break sound when denying requests
+
 • All sounds can be configured or disabled
 
-⚙️ Configuration
-[CODE]
+**⚙️ Configuration**
 Settings:
-  request-timeout: 60
-  request-cooldown: 30
-  enable-sounds: true
-Messages:
-  Prefix: "&8[&bTPA&8]"
-  # Fully customizable messages
-  # Supports color codes
-  # Placeholders: %player%, %target%, %time%
-Sounds:
-  # Configurable sounds for all versions
-  # Separate modern and legacy sound names
-  # Adjustable volume and pitch
-[/CODE]
 
-Why Choose This Plugin?
+  request-timeout: 60
+
+  request-cooldown: 30
+
+  enable-sounds: true
+
+Messages:
+
+  Prefix: "&8[&bTPA&8]"
+
+   Fully customizable messages
+   Supports color codes
+   Placeholders: %player%, %target%, %time%
+Sounds:
+   Configurable sounds for all versions
+   Separate modern and legacy sound names
+   Adjustable volume and pitch
+
+**Why Choose This Plugin?**
 • Universal Compatibility: Works on all versions from 1.8 to 1.20
 • Performance: Optimized code with minimal resource usage
 • Customization: Every message and timer can be configured
 • User-Friendly: Intuitive commands and clear messages
 • Staff Features: Cooldown bypass for administrators
 
-Installation
+**Installation**
 1. Download the plugin
 2. Place in your server's plugins folder
 3. Restart server
 4. Configure messages and settings (optional)
 5. That's it!
 
-Future Updates
+**Future Updates**
 • MySQL support for cross-server toggle states
 • Warmup timer before teleport
 • Distance limits configuration
 • Language file support
 • Advanced permission system
 
-⚠️ Support
+**⚠️ Support**
 If you encounter any issues or have suggestions:
 • Create an issue on our GitHub page
 • Join our Discord server
