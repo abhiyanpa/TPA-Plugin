@@ -26,14 +26,13 @@ Features
 
 ✅ Lightweight (< 50KB)
 
-Commands
-[CODE]
+Commands:
+
 /tpa <player> - Request to teleport to a player
 /tpahere <player> - Request a player to teleport to you
 /tpaccept - Accept incoming teleport request
 /tpadeny - Deny teleport request
 /tpatoggle - Toggle teleport requests on/off
-[/CODE]
 
 ⚡ Permissions
 [CODE]
