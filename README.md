@@ -3,70 +3,45 @@ A lightweight and powerful teleport request plugin
 Features
 
 ✅ Multi-version support (1.8 - 1.20)
-
 ✅ [NEW] Fully configurable messages and timers
-
 ✅ [NEW] Custom sound effects configuration
-
 ✅ Customizable cooldown system (Default: 30s)
-
 ✅ Request timeout (Default: 60s)
-
 ✅ Toggle teleport requests with /tpatoggle
-
 ✅ Interactive sound effects
-
 ✅ Permission system
-
 ✅ Staff cooldown bypass
-
 ✅ Memory optimized
-
 ✅ No dependencies required
-
 ✅ Lightweight (< 50KB)
 
 **Commands**
 
 /tpa <player> - Request to teleport to a player
-
 /tpahere <player> - Request a player to teleport to you
-
 /tpaccept - Accept incoming teleport request
-
 /tpadeny - Deny teleport request
-
 /tpatoggle - Toggle teleport requests on/off
 
 **⚡ Permissions**
 
 tpasystem.use - Access to all TPA commands (Default: true)
-
 tpasystem.bypass - Bypass cooldown timer (Default: op)
 
 **Sound Effects**
 
 • Experience orb sound when sending requests
-
 • Enderman teleport sound on successful teleport
-
 • Anvil break sound when denying requests
-
 • All sounds can be configured or disabled
 
 **⚙️ Configuration**
 Settings:
-
   request-timeout: 60
-
   request-cooldown: 30
-
   enable-sounds: true
-
 Messages:
-
   Prefix: "&8[&bTPA&8]"
-
    Fully customizable messages
    Supports color codes
    Placeholders: %player%, %target%, %time%
